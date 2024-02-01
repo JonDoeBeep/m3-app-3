@@ -52,8 +52,8 @@ components:
     properties: {text: '8', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,CXRBGE PXOIES,VPRUXP'}
-  - name: button_1
-    properties: {text: button_1}
+  - name: zero
+    properties: {text: '0', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,CXRBGE DSMPMK,MUVYSF'}
   - name: nine
@@ -62,8 +62,8 @@ components:
         ', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,GJECOY KXPTLO,GCRJEZ'}
-  - name: button_2
-    properties: {text: button_2}
+  - name: decimal
+    properties: {text: ., role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,GJECOY IGFQUP,CRTFPN'}
   - name: equate
