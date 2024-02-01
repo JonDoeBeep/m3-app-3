@@ -16,14 +16,17 @@ components:
     properties: {text: '1', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,LJSBFQ'}
+    event_bindings: {click: button_1_click}
   - name: button_2
     properties: {text: '2', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,BAYXOH'}
+    event_bindings: {click: button_2_click}
   - name: button_3
     properties: {text: '3', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,DHELYM'}
+    event_bindings: {click: button_3_click}
   - name: button_4
     properties: {text: X, role: filled-button}
     type: Button
