@@ -29,7 +29,7 @@ components:
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,FOPIXS'}
   - name: button_5
-    properties: {text: button_5}
+    properties: {text: button_5, role: filled-button}
     type: Button
     layout_properties: {grid_position: 'WFQMJT,MYFKOL'}
   - name: button_6
@@ -45,19 +45,23 @@ components:
     type: Button
     layout_properties: {grid_position: 'WFQMJT,MGDJCV'}
   - name: button_9
-    properties: {text: button_9}
+    properties: {text: '7', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,TPUPZI'}
   - name: button_10
-    properties: {text: button_10}
+    properties: {text: '8', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,CXRBGE'}
   - name: button_11
-    properties: {text: button_11}
+    properties: {text: '9
+
+        ', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,GJECOY KXPTLO,GCRJEZ'}
   - name: button_12
-    properties: {text: button_12}
+    properties: {text: '=
+
+        ', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,TJMJWK'}
 - type: FlowPanel
