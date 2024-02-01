@@ -12,53 +12,61 @@ components:
     properties: {}
     type: TextBox
     layout_properties: {grid_position: 'RIZSSK,YKPFCR'}
-  - name: button_1
-    properties: {text: button_1, role: filled-button}
+  - name: one
+    properties: {text: '1', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,LJSBFQ'}
-  - name: button_2
-    properties: {text: button_2, role: filled-button}
+  - name: two
+    properties: {text: '2', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,BAYXOH'}
-  - name: button_3
-    properties: {text: button_3, role: filled-button}
+  - name: three
+    properties: {text: '3', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,DHELYM'}
-  - name: button_4
-    properties: {text: button_4, role: filled-button}
+  - name: plus
+    properties: {text: +, role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,FOPIXS'}
-  - name: button_5
-    properties: {text: button_5, role: filled-button}
+  - name: four
+    properties: {text: '4', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'WFQMJT,MYFKOL'}
-  - name: button_6
-    properties: {text: button_6, role: filled-button}
+  - name: five
+    properties: {text: '5', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'WFQMJT,AEBQIJ'}
-  - name: button_7
-    properties: {text: button_7, role: filled-button}
+  - name: six
+    properties: {text: '6', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'WFQMJT,ESJBKZ'}
-  - name: button_8
-    properties: {text: button_8, role: filled-button}
+  - name: minus
+    properties: {text: '-', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'WFQMJT,MGDJCV'}
-  - name: button_9
+  - name: seven
     properties: {text: '7', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,TPUPZI'}
-  - name: button_10
+  - name: eight
     properties: {text: '8', role: filled-button}
     type: Button
-    layout_properties: {grid_position: 'XWUKRT,CXRBGE'}
-  - name: button_11
+    layout_properties: {grid_position: 'XWUKRT,CXRBGE PXOIES,VPRUXP'}
+  - name: button_1
+    properties: {text: button_1}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,CXRBGE DSMPMK,MUVYSF'}
+  - name: nine
     properties: {text: '9
 
         ', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,GJECOY KXPTLO,GCRJEZ'}
-  - name: button_12
+  - name: button_2
+    properties: {text: button_2}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,GJECOY IGFQUP,CRTFPN'}
+  - name: equate
     properties: {text: '=
 
         ', role: filled-button}
