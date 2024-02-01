@@ -8,10 +8,10 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
-  - name: text_box_1
+  - name: output
     properties: {}
-    type: TextBox
-    layout_properties: {grid_position: 'RIZSSK,YKPFCR'}
+    type: Label
+    layout_properties: {grid_position: 'QBYXWB,YBYPUM'}
   - name: one
     properties: {text: '1', role: filled-button}
     type: Button
