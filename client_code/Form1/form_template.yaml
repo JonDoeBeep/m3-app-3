@@ -76,12 +76,12 @@ components:
         ', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,GJECOY WURWSA,ARGZSR'}
-  - name: button_2
-    properties: {text: button_2}
+  - name: multiply
+    properties: {text: '*', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,TJMJWK ZWGNLK,JOGGAA'}
-  - name: button_1
-    properties: {text: button_1}
+  - name: divide
+    properties: {text: /, role: filled-button}
     type: Button
     layout_properties: {grid_position: 'XWUKRT,TJMJWK OCIIPT,TBNYGA'}
 - type: FlowPanel
