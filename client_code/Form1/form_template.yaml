@@ -16,18 +16,22 @@ components:
     properties: {text: '1', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,LJSBFQ'}
+    event_bindings: {click: one_click}
   - name: two
     properties: {text: '2', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,BAYXOH'}
+    event_bindings: {click: two_click}
   - name: three
     properties: {text: '3', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,DHELYM'}
+    event_bindings: {click: three_click}
   - name: plus
     properties: {text: +, role: filled-button}
     type: Button
     layout_properties: {grid_position: 'ZTWDYO,FOPIXS'}
+    event_bindings: {click: plus_click}
   - name: four
     properties: {text: '4', role: filled-button}
     type: Button
@@ -47,31 +51,39 @@ components:
   - name: seven
     properties: {text: '7', role: filled-button}
     type: Button
-    layout_properties: {grid_position: 'XWUKRT,TPUPZI'}
-  - name: eight
-    properties: {text: '8', role: filled-button}
-    type: Button
-    layout_properties: {grid_position: 'XWUKRT,CXRBGE PXOIES,VPRUXP'}
+    layout_properties: {grid_position: 'XWUKRT,TPUPZI LZERXJ,JRJHHG'}
   - name: zero
     properties: {text: '0', role: filled-button}
     type: Button
-    layout_properties: {grid_position: 'XWUKRT,CXRBGE DSMPMK,MUVYSF'}
+    layout_properties: {grid_position: 'XWUKRT,TPUPZI PRYQKA,JXIKBM'}
+  - name: eight
+    properties: {text: '8', role: filled-button}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,CXRBGE BHJCID,ICMRJO'}
+  - name: decimal
+    properties: {text: ., role: filled-button}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,CXRBGE BFKDRK,YQKQTQ'}
   - name: nine
     properties: {text: '9
 
         ', role: filled-button}
     type: Button
-    layout_properties: {grid_position: 'XWUKRT,GJECOY KXPTLO,GCRJEZ'}
-  - name: decimal
-    properties: {text: ., role: filled-button}
-    type: Button
-    layout_properties: {grid_position: 'XWUKRT,GJECOY IGFQUP,CRTFPN'}
+    layout_properties: {grid_position: 'XWUKRT,GJECOY'}
   - name: equate
     properties: {text: '=
 
         ', role: filled-button}
     type: Button
-    layout_properties: {grid_position: 'XWUKRT,TJMJWK'}
+    layout_properties: {grid_position: 'XWUKRT,GJECOY WURWSA,ARGZSR'}
+  - name: button_2
+    properties: {text: button_2}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,TJMJWK ZWGNLK,JOGGAA'}
+  - name: button_1
+    properties: {text: button_1}
+    type: Button
+    layout_properties: {grid_position: 'XWUKRT,TJMJWK OCIIPT,TBNYGA'}
 - type: FlowPanel
   properties: {}
   name: navbar_links

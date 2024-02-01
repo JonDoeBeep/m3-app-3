@@ -7,4 +7,19 @@ class Form1(Form1Template):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
-  def 
+
+  def one_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
+
+  def two_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
+
+  def three_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
+
+  def plus_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    pass
