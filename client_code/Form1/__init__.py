@@ -11,4 +11,5 @@ class Form1(Form1Template):
 
   def equate_click(self, **event_args):
     """This method is called when the button is clicked"""
+    pass
     
