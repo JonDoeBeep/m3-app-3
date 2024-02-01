@@ -11,21 +11,24 @@ class Form1(Form1Template):
 
   def button_1_click(self, **event_args):
       """This method is called when the button is clicked"""
-      self.num = self.num + 
+      self.num = self.num + 1
       self.text_box_1.text = self.num
 
   def button_2_click(self, **event_args):
     """This method is called when the button is clicked"""
-    self.text_box_1.text = self.button_2.text
-
+      self.num = self.num + 2
+      self.text_box_1.text = self.num
+    
   def button_3_click(self, **event_args):
     """This method is called when the button is clicked"""
-    self.text_box_1.text = self.button_3.text
-
+      self.num = self.num + 3
+      self.text_box_1.text = self.num
+    
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
-    self.text_box_1.text = self.button_4.text
-
+      self.num = self.num + "*"
+      self.text_box_1.text = self.num
+    
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
     self.text_box_1.text = self.button_4.text
